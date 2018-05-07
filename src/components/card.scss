@@ -1,0 +1,38 @@
+
+@mixin size($height,$width) {
+    height: $height/1334vh;
+    width: $width/750vw;
+}
+
+.app {
+    background-color:rgb(239,239,244);
+    width:100vw;
+    height:100vh;
+    text-align: center;
+}
+.centerPicture{
+    @include size(703,550);
+    margin-top: 140/1334vh;
+   
+}
+.center{
+    margin-top: -703/1334vh;
+    @include size(703,550);
+    text-align: center;
+}
+.wordWord{
+    font-size: 34px;
+    color: rgb(67,67,67);
+    margin-top: 190/1334vh;
+}
+.Money{
+    font-size: 74px;
+    color: rgb(254,183,90);
+    margin-top: 80/1334vh;
+}
+.Date{
+    font-size: 24px;
+    color: rgb(142, 142, 147);
+    margin-top: 160/1334vh;
+    margin-left: 64/750vw;
+}
