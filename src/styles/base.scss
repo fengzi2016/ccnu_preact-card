@@ -1,4 +1,4 @@
-@import "./color.scss";
+
 
 html,
 body {
@@ -6,8 +6,6 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: $bg-color;
-  color: $txt-color;
   font-family: Helvetica, Tahoma, Arial, "Microsoft YaHei", "Hiragino Sans GB",
     "WenQuanYi Micro Hei", sans-serif;
 }

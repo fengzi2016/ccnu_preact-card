@@ -24,13 +24,15 @@ export default class Card extends Component {
     }
     render({},{}){
         return (
-            <div className = 'App'>
-                <img className = 'centerPicture' sre = {imageSrc} />
+            <div className = 'App'> 
+               
+               <img className = 'centerPicture' src = {imageSrc} />
+                
                 <div className = 'center'>
-                    <div className = 'warnWord'>您的校园卡余额是为</div>
-                    <div className = 'Money'>{this.state.money}元</div>
-                    <div className = 'Date'>截止至{this.state.time}</div>
-                </div>
+                        <div className = 'warnWord'>您的校园卡余额是为</div>
+                        <div className = 'Money'>{this.state.money}元</div>
+                        <div className = 'Date'>截止至{this.state.time}</div>
+                </div>   
             </div>
         )
     }
